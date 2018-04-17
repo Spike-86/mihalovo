@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Деревня Михалово, Раковский сельсовет</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css" rel="stylesheet">
+    <link href="styles/main.css" rel="stylesheet">
+
+</head>
+<body>
+<header>
+</header>
+<nav>
+    <ul>
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="neighbors.html">Карта соседей</a></li>
+        <li><a href="*">Форум</a></li>
+    </ul>
+</nav>
+<main>
+    <h1>Деревня Михалово, Воложинскй район, Раковской сельсовет</h1>
+    <h2> Добро пожаловать на сайт деревни Михалово. </h2>
+    <br/>
+    <cite>Первые письменные упоминания о поселении на месте современного Ракова относятся к XIV веку, когда Казимир Ягеллон даровал город канцлеру Великого княжества Литовского Михалу Кяжгайле. Своего расцвета Раков достиг в XVII веке во владении магнатов Сангушек.
+        <br>Будем считать что старая деревня Михалово была заселена примерно в эти времена. <br> Новая история деревни Михалово
+    берет свое начало в начале 2011 года. Здесь началась нарезка земли и выделение ее жителям Республики Беларусь. В 2018 году количество участков
+    насчитывает более 290 единиц. Идет активная застройка, создается инфраструктура, создается коммуниакация среди соседей. Мы будем рады видеть вас в числе наших соседей и совместными действиями мы сделааем Михалово одним из лучших мест для жизни.</cite>
+
+    <section id="map"></section>
+</main>
+
+
+<script>
+    function initMap() {
+        // Create a map object and specify the DOM element for display.
+
+        const MIHALOVO = {lat: 53.991756, lng: 26.951926};
+        var map = new google.maps.Map(document.getElementById('map'), {
+            center: MIHALOVO,
+            mapTypeId: 'hybrid',
+            zoom: 15
+        });
+
+        var marker = new google.maps.Marker({
+            map: map,
+            position: MIHALOVO,
+            title: 'Деревня Михалово'
+        });
+    }
+
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAEHu_fuBYg9xIX4dNAeWBoMzZaGhTXbFU
+&callback=initMap"
+        async defer></script>
+
+
+</body>
+</html>
