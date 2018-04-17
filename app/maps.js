@@ -9,7 +9,6 @@ function initMap() {
         zoom: 16
     });
 
-
     var neighborsArray = [
         {   position: {lat: 53.990233, lng: 26.952842},
             title: 'Spike / пер. Полевой 1-й, 19',
