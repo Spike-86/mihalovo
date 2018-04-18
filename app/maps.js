@@ -56,6 +56,24 @@ function initMap() {
             title: 'Э́дди / пер. Полевой 2, 28',
             nickname: 'Э́дди',
             address: 'пер. Полевой 2, 28'
+        },
+        {
+            position: {lat: 53.994834, lng: 26.945043},
+            title: 'К.А.Т.Я. / пер. Полевой 2, 12',
+            nickname: 'К.А.Т.Я.',
+            address: 'пер. Полевой 2, 12'
+        },
+        {
+            position: {lat: 53.992287, lng: 26.950099},
+            title: 'kripa / пер. Полевой 1, 49',
+            nickname: 'kripa',
+            address: 'пер. Полевой 1, 49'
+        },
+        {
+            position: {lat: 53.993520, lng: 26.953012},
+            title: 'Paplevka / ул. Полевая, 122',
+            nickname: 'Paplevka',
+            address: 'ул. Полевая, 122'
         }
     ];
 
