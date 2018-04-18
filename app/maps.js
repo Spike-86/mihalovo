@@ -71,9 +71,9 @@ function initMap() {
         },
         {
             position: {lat: 53.993520, lng: 26.953012},
-            title: 'Paplevka / ул. Полевая, 122',
+            title: 'Paplevka / ул. Полевая, 154',
             nickname: 'Paplevka',
-            address: 'ул. Полевая, 122'
+            address: 'ул. Полевая, 154'
         }
     ];
 
