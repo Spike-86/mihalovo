@@ -52,3 +52,14 @@ main section {
 h1 {
   min-height: 40px;
 }
+.petition {
+  background-color: #ff4c4c;
+  color: #fff;
+  margin: 30px 0;
+  padding: 20px;
+  font-size: 20px;
+}
+.petition a {
+  text-decoration: underline;
+  color: #fff;
+}
